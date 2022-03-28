@@ -1,0 +1,52 @@
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 10rem;
+
+}
+
+.intro{
+    width: 35%;
+    margin-top: 6rem ;
+}
+
+.overflow-img{
+  width: 60%;
+  background-image: url('../../images/bg-intro-desktop.svg');
+  background-size: 1200px 950px ;
+  background-position-y: -250px;
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
+ 
+}
+
+.intro h1{
+    font-size: 3.3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+
+
+.mockups{
+   position: relative;
+   transform: translateX(30.8%);
+   width: 650px;
+   height: 800px;
+   z-index: -1;
+   margin-top: -100px;
+}
+

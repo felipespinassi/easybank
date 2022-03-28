@@ -1,0 +1,51 @@
+.main{
+    background-color: hsl(220, 16%, 96%);
+    padding: 5rem 3rem 5rem 10rem;
+    font-family: "Public Sans";
+   
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    font-weight: 200;
+    color: hsl(233, 26%, 24%);
+}
+.main_container{
+    display: flex;
+    padding-top: 3rem;
+    max-width: 1400px;
+}
+
+.main-container-div{
+    margin-right: 5rem;
+}
+
+.main_paragraph{
+    max-width: 50%;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+
+.main_container_img{
+    width: 70px;
+    height: 70px;
+}
+
+.main_container_subtitle{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main_container_p{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    
+}

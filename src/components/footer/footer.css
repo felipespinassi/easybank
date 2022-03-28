@@ -1,0 +1,36 @@
+footer{
+    background: hsl(233, 26%, 24%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 13rem;
+    color: #fff;
+    padding: 2rem;
+}
+
+
+
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div-img{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div-a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.footer-div-p{
+    padding-top: 2rem;
+}
+
+
+

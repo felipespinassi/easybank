@@ -1,0 +1,46 @@
+.article-container{
+    padding: 3rem 5rem 3rem 10rem;
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+
+.articles{
+    display: flex;
+    margin-top: 3rem;
+}
+
+article{
+    margin-right: 0.5rem;
+    height: auto;
+    height: 400px;
+}
+
+.article-image{
+    width: 80%;
+    height: 50%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.autor{
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.article-p{
+   margin-bottom: 1rem;
+   font-size: 1.2rem;
+}
+
+.article-p-description{
+    font-size: 0.8rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.article-div{
+
+    padding: 1rem 1.5rem;
+}
