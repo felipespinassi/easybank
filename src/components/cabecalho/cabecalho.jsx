@@ -3,6 +3,7 @@ import './cabecalho.css'
 import Button from "../button/button"
 
 
+
 function Cabecalho(){
     return(
       <div className="header">
@@ -14,7 +15,8 @@ function Cabecalho(){
               <li className="lista">Blog</li>
               <li className="lista">Carrers</li>
           </ul>
-          <Button/>
+          <Button />
+          
       </div>
     )
 }

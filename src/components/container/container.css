@@ -22,7 +22,7 @@
   background-repeat: no-repeat;
   position: relative;
   z-index: -2;
- 
+  overflow: hidden;
 }
 
 .intro h1{
@@ -50,3 +50,30 @@
    margin-top: -100px;
 }
 
+@media screen and (max-width: 1000px) {
+    .container{
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .overflow-img{
+        background-image: url('../../images/bg-intro-mobile.svg');
+        width: 100%;
+        
+    }
+
+    .mockups{
+        width: 100%;
+        height: 100%;
+        transform: translate(0);
+    }
+
+    .intro{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

@@ -49,3 +49,31 @@
     font-size: 1.2rem;
     
 }
+
+@media screen and (max-width: 1000px) {
+    .main{
+        flex-direction: column;
+        padding: 1rem;
+
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .main_paragraph{
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .main_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container-div{
+        margin: 0;
+        width: 80%;
+
+    }
+}

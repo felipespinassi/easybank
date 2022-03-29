@@ -44,3 +44,20 @@ article{
 
     padding: 1rem 1.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .article-container{
+        padding: 1rem;
+
+    }
+    .articles{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article-image{
+        margin: 1rem;
+    }
+}
