@@ -32,5 +32,31 @@ footer{
     padding-top: 2rem;
 }
 
+@media screen and (max-width: 1000px){
+    footer{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-div{
+        align-items: center;
+    }
+
+    .footer-div-a{
+        padding-top: 0.2rem;
+
+    }
+
+
+    .footer-div-img{
+        padding: 2rem 0rem;
+    }
+
+    .footer-div-img img{
+        padding-right: 1rem;
+    }
+}
 
 

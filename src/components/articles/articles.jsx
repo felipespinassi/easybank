@@ -11,7 +11,7 @@ function Articles() {
             <h1>Latest Articles</h1>
             <div className="articles">
 
-                <article>
+                <section>
                     <img className="article-image" src={Currency} alt="Currency" />
                     <div className="article-div">
                         <p className="autor">By Claire Robinson</p>
@@ -22,9 +22,9 @@ function Articles() {
                         </p>
                     </div>
 
-                </article>
+                </section>
 
-                <article>
+                <section>
                     <img className="article-image" src={Confetti} alt="Confetti" />
                     <div className="article-div">
                         <p className="autor">By Wilson Hutton</p>
@@ -35,9 +35,9 @@ function Articles() {
                         </p>
                     </div>
 
-                </article>
+                </section>
 
-                <article>
+                <section>
                     <img className="article-image" src={Plane} alt="Plane" />
                     <div className="article-div">
                         <p className="autor">By Wilson Hutton</p>
@@ -48,9 +48,9 @@ function Articles() {
                         </p>
                     </div>
 
-                </article>
+                </section>
 
-                <article>
+                <section>
                     <img className="article-image" src={Restaurant} alt="Restaurant" />
                     <div className="article-div">
                         <p className="autor">By Claire Robinson</p>
@@ -61,7 +61,7 @@ function Articles() {
                         </p>
                     </div>
 
-                </article>
+                </section>
 
             </div>
         </div>
