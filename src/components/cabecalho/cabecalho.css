@@ -38,8 +38,23 @@ img{
     border-image-slice: 1;
 }
 
+.button-mobile{
+    display: none;
+}
+
 @media only screen and (max-width: 1000px){
     .lista-cabecalho{
         display: none;
     }
+    .button-mobile{
+        display: block;
+        border-style: none;
+        background-color: #fff;
+    }
+
+    .img-button-mobile{
+        font-size: 2rem;
+        
+    }
+    
 }
