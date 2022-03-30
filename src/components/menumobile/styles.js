@@ -5,13 +5,15 @@ export const Container = styled.section`
     
 
     position: absolute;
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 60%;
     top: 100px;
     bottom: 0;
-    right: 15%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
     z-index: 5;
-    max-width: 950px;
+    max-width: 700px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -37,13 +39,18 @@ export const Container = styled.section`
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
         transform: scale(0.7);
         transition: .7s;
     }
+    a{
+      font-size:1.4rem ;
+      text-decoration: none;
+      color: #000;
+    }
 
     ${({isVisible})=> isVisible && css`
-        opacity: 95%;
+        opacity: 100%;
         pointer-events: visible;
         transform: translateY(0px);
         

@@ -18,6 +18,7 @@ function Cabecalho({setMenuIsVisible}){
               <li className="lista">Blog</li>
               <li className="lista">Carrers</li>
           </ul>
+          
           <Button></Button>
           <button type="button" className="button-mobile" onClick={() => setMenuIsVisible(true)} >
               <AiOutlineMenu className="img-button-mobile" />

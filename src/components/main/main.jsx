@@ -8,7 +8,7 @@ import '../main/main.css'
 function Main (){
     return(
         <div className="main">
-            <h2 className='subtitle'>Why choose Easybank</h2>
+            <h2 className='subtitle'>Why choose Easybank ?</h2>
             <p className='main_paragraph'>We leverage Open Banking to turn your bank account into your financial hub.
                 Control your finances like never before.
             </p>
