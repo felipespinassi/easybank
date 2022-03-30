@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/easybank/static/css/main.7f5836a9.css",
-    "main.js": "/easybank/static/js/main.6aefc581.js",
+    "main.css": "/easybank/static/css/main.feef57a3.css",
+    "main.js": "/easybank/static/js/main.32f41b51.js",
     "static/media/image-currency.jpg": "/easybank/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/image-restaurant.jpg": "/easybank/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
     "static/media/image-mockups.png": "/easybank/static/media/image-mockups.48d35b175fe3d36de4ee.png",
@@ -21,11 +21,11 @@
     "static/media/icon-twitter.svg": "/easybank/static/media/icon-twitter.01a8907dd0beb126cff27d505c31be52.svg",
     "static/media/icon-youtube.svg": "/easybank/static/media/icon-youtube.7d6960fbb0c4831f7c667012f0b102d2.svg",
     "static/media/icon-facebook.svg": "/easybank/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
-    "main.7f5836a9.css.map": "/easybank/static/css/main.7f5836a9.css.map",
-    "main.6aefc581.js.map": "/easybank/static/js/main.6aefc581.js.map"
+    "main.feef57a3.css.map": "/easybank/static/css/main.feef57a3.css.map",
+    "main.32f41b51.js.map": "/easybank/static/js/main.32f41b51.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f5836a9.css",
-    "static/js/main.6aefc581.js"
+    "static/css/main.feef57a3.css",
+    "static/js/main.32f41b51.js"
   ]
 }
